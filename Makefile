@@ -21,3 +21,9 @@ hardhat-verify-sepolia:
 
 hardhat-accounts-task:
 	npx hardhat accounts
+
+ignition-list-deployments:
+	npx hardhat ignition deployments
+
+ignition-see-sepolia-deployment:
+	npx hardhat ignition status DeploymentId

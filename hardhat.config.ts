@@ -1,5 +1,6 @@
 import { HardhatUserConfig, vars, task } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
+import "@nomicfoundation/hardhat-ignition-ethers";
 
 //to set vars in shell : npx hardhat vars set API_PRIVATE_KEY
 const ETHERSCAN_API_KEY = vars.get("ETHERSCAN_API_KEY");
