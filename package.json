@@ -11,6 +11,6 @@
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "hardhat": "^2.22.5",
-    "hardhat-gas-reporter": "^2.2.0"
+    "mocha": "^10.4.0"
   }
 }

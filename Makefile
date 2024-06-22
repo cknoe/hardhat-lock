@@ -1,7 +1,7 @@
 hardhat-test:
 	npx hardhat test
 
-hardhat-covarage:
+hardhat-coverage:
 	npx hardhat coverage
 
 hardhat-report-gas:
@@ -18,3 +18,6 @@ hardhat-deploy-sepolia:
 
 hardhat-verify-sepolia:
 	npx hardhat ignition verify sepolia-deployment
+
+hardhat-accounts-task:
+	npx hardhat accounts
